@@ -1,0 +1,7 @@
+<div ng-controller="mainCtrl as main">
+  <jb-carusel jb-items="main.cards" jb-action="main.selectCard(item)">
+    <div class="jbimg"><img ng-src={{item.image}}></div>
+    <div class="jbphone">{{item.phone}}</div>
+    <div class="jbname">{{item.name}}</div>
+  </jb-carusel>
+</div>
